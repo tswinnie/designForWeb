@@ -6,6 +6,20 @@ Madlib Assignment
 9/4/14
 '''
 
+# I will go ahead now and make the var for the user to input their name
+
+usr_Name = raw_input('Enter Your First Name, then press enter.')
+
+if usr_Name != '':
+   # I am going to use a dictionary to store the name of the user
+
+    dict = {'name': ''}
+    dict['name'] = usr_Name
+
+print dict['name']
+
+
+
 # i will create variables that will hold that data from user
 
 
@@ -24,4 +38,8 @@ the data from the user. I will use an array
 
 '''
 myArray = [adj1, num1, noun1, num2, ver1, num3]
-# print myArray
+
+#added newly created name from user to my array
+myArray.append(dict['name'])
+
+print myArray
