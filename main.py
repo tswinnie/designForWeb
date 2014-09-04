@@ -15,6 +15,8 @@ if usr_Name != '':
 
     dict = {'name': ''}
     dict['name'] = usr_Name
+else:
+    print "Please Enter Your Name"
 
 print dict['name']
 
