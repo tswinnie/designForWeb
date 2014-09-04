@@ -18,8 +18,7 @@ if usr_Name != '':
 else:
     print "Please Enter Your Name "
 
-print dict['name']
-
+new_name = dict['name']
 # Now I'm going to collect the user's age so that I can make sure they are human and not spam
 
 born = raw_input("Please enter the year you were born, then press enter ")
@@ -53,9 +52,9 @@ check(current, born)
 
 adj1 = raw_input('Tell me an adjective, then press enter ')
 num1 = raw_input('Give me a number between 1 and 10 and press enter. ')
-noun1 = raw_input('Tell me an noun, then press enter')
+noun1 = raw_input('Tell me an noun, then press enter ')
 num2 = raw_input('Give me a number between 1 and 8 and press enter. ')
-ver1 = raw_input('Tell me an verb, then press enter')
+ver1 = raw_input('Tell me an verb, then press enter ')
 num3 = raw_input('Give me a number between 1 and 5 and press enter. ')
 
 
@@ -68,7 +67,10 @@ the data from the user. I will use an array
 myArray = [adj1, num1, noun1, num2, ver1, num3]
 
 #added newly created name from user to my array
-myArray.append(dict['name'])
+myArray.append(new_name)
+myArray.append(born)
+
+
 
 
 
@@ -77,15 +79,27 @@ myArray.append(dict['name'])
 for number_items in myArray:
 
     if number_items >= 5:
-        print "We are good"
+        break
     else:
         print"Something went wrong"
         exit()
 
+# for the final part I am going to include the data collected from the user and insert it into my madlib
+
+message = '''
+My name is {new_name}. I was born on {born} and i'm feeling {adj1}.
+I just relieved myself {num1} times on your yard. I don't like your {noun1}
+and I don't sleep {num2} hours a night, but if you don't quite your dog, me
+and you will {ver1}, {num3} times each night.
 
 
 
-print myArray
+'''
+
+message = message.format(**locals())
+
+print message
+
 
 
 
