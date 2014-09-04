@@ -70,6 +70,21 @@ myArray = [adj1, num1, noun1, num2, ver1, num3]
 #added newly created name from user to my array
 myArray.append(dict['name'])
 
+
+
+#the next thing I want to do is loop through the array and check to see if their are the correct number of items
+
+for number_items in myArray:
+
+    if number_items >= 5:
+        print "We are good"
+    else:
+        print"Something went wrong"
+        exit()
+
+
+
+
 print myArray
 
 
