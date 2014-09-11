@@ -56,7 +56,17 @@ class MainHandler(webapp2.RequestHandler):
         '''
 
         #now that I have my form for the page I want to get information that the user input in to the form
-        
+        if self.request.GET:
+            first_name = self.request.GET['first']  # this gets the value for the first name
+            last_name = self.request.GET['last']  # this gets the last name value
+            car_loan = self.request.GET['car']  # this gets the car loan check box value
+            drop = self.request.GET['small_loan']  # this gets the drop down selection value
+            loan = self.request.GET['loan_date']  # this gets the days for the loan value drop down
+            # return the values that the user put in the form after the submit button
+            self.response.write(page_head + page_body + first_name + ' ' + last_name + ' ' + car_loan + ' ' + drop + ' ' + loan + page_close)
+        else:
+            # if the user does not input any values then do this
+            self.response.write(page_head + page_body + page_close)
 
 
 

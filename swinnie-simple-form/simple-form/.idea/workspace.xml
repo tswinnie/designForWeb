@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9fc249e-c647-4210-bf48-94830cd53092" name="Default" comment="" />
-    <ignored path="simple_form.iws" />
+    <list default="true" id="539b8421-1586-4e04-92e3-bc88111f0d99" name="Default" comment="" />
+    <ignored path="simple-form.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +19,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="simple_form" />
+    <favorites_list name="simple-form" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="0" selection-start="3544" selection-end="3544" vertical-scroll-proportion="3.863275" vertical-offset="0" max-vertical-offset="2655">
+            <state line="51" column="50" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.76311606" vertical-offset="285" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="26" />
-    <option name="y" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="790" />
   </component>
@@ -78,45 +78,28 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form" />
+              <option name="myItemId" value="simple-form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form" />
+              <option name="myItemId" value="simple-form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple_form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleForm" />
+              <option name="myItemId" value="simple-form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-form" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -124,14 +107,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9fc249e-c647-4210-bf48-94830cd53092" name="Default" comment="" />
-      <created>1410403056615</created>
-      <updated>1410403056615</updated>
+      <changelist id="539b8421-1586-4e04-92e3-bc88111f0d99" name="Default" comment="" />
+      <created>1410409727383</created>
+      <updated>1410409727383</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="22" width="1400" height="790" extended-state="1" />
+    <frame x="26" y="23" width="1400" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -162,14 +145,12 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="0" selection-start="3544" selection-end="3544" vertical-scroll-proportion="3.863275" vertical-offset="0" max-vertical-offset="2655">
+        <state line="51" column="50" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.76311606" vertical-offset="285" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
